@@ -1,20 +1,15 @@
 resourceType: StructureDefinition
-id: us-core-birthsex
-url: http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-birthsex
-version: 4.0.0
-name: UsCoreBirthSexExtension
-title: US Core Birth Sex Extension
+id: ext-birthsex
+url: http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-birthsex
+version: 0.0.0
+name: ext_BirthSex
+title: 'Extension: Birth Sex'
 status: active
-date: "2016-08-01T00:00:00+00:00"
-publisher: HL7 US Realm Steering Committee
-description: A code classifying the person's sex assigned at birth  as specified by
-  the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc).
-  This extension aligns with the C-CDA Birth Sex Observation (LOINC 76689-9).
+date: '2019-03-08'
+publisher: TBD
+description: A code classifying the person's sex assigned at birth.
+  Replicates the birthsex extension in US-Core-R4 for interoperability.
 fhirVersion: 4.0.0
-mapping:
-- identity: rim
-  uri: http://hl7.org/v3
-  name: RIM Mapping
 kind: complex-type
 abstract: false
 context:
@@ -27,12 +22,12 @@ differential:
   element:
   - id: Extension:birthsex
     path: Extension
-    definition: A code classifying the person's sex assigned at birth  as specified
-      by the [Office of the National Coordinator for Health IT (ONC)](https://www.healthit.gov/newsroom/about-onc).
+    definition: A code classifying the person's sex assigned at birth.
+      Replicates the birthsex extension in US-Core-R4 for interoperability.
     comment: The codes required are intended to present birth sex (i.e., the sex recorded
       on the patient’s birth certificate) and not gender identity or reassigned sex.
     min: 0
-    max: "1"
+    max: '1'
     isModifier: false
     mapping:
     - identity: rim
@@ -41,14 +36,14 @@ differential:
       map: .patient.administrativeGenderCode
   - id: Extension:birthsex.url
     path: Extension.url
-    fixedUri: http://hl7.org/fhir/us/core-r4/StructureDefinition/us-core-birthsex
+    fixedUri: http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-birthsex
   - id: Extension:birthsex.valueCode
     path: Extension.valueCode
     min: 0
-    max: "1"
+    max: '1'
     type:
     - code: code
     binding:
       strength: required
-      description: Code for sex assigned at birth
-      valueSet: http://hl7.org/fhir/us/core-r4/ValueSet/birthsex
+      description: Codes for documenting sex at birth
+      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/birthsex
