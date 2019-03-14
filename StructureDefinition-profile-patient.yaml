@@ -1,4 +1,3 @@
----
 resourceType: StructureDefinition
 id: profile-patient
 url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
@@ -24,9 +23,9 @@ differential:
     definition: The Patient Profile is based upon the core FHIR Patient Resource
     mustSupport: false
     isModifier: false
-    # mapping:
-    # - identity: argonaut-dq-dstu2
-    #   map: Patient
+  #   mapping:
+  #   - identity: argonaut-dq-dstu2
+  #     map: Patient
 
   # There is no equiv to the US race extension in Canadian HL7 specs
   # Removed: No requirement
@@ -123,7 +122,7 @@ differential:
     mustSupport: true
   - id: Patient.identifier:JHN.system
     path: Patient.identifier.system
-    short: A Health Number Naming System from Canadian URI Registry
+    short: A Health Number Naming System from the Canadian URI Registry
     example:
     - label: (Ontario)
       valueUri: https://fhir.infoway-inforoute.ca/NamingSystem/ca-on-patient-hcn
@@ -134,7 +133,6 @@ differential:
     mustSupport: true
   - id: Patient.identifier:JHN.value
     path: Patient.identifier.value
-    short: Health
     min: 1
     max: '1'
     example:
