@@ -16,6 +16,12 @@ definition:
       reference: StructureDefinition/ext-versioncode
     exampleBoolean: false
   - reference:
+      reference: StructureDefinition/profile-location
+    exampleBoolean: false
+  - reference:
+      reference: StructureDefinition/profile-organization
+    exampleBoolean: false
+  - reference:
       reference: StructureDefinition/profile-patient
     exampleBoolean: false
   - reference:
@@ -39,6 +45,12 @@ definition:
         generation: generated
       - nameUrl: StructureDefinition-ext-versioncode.html
         title: 'Extension: Patient Identifier Version Code'
+        generation: generated
+      - nameUrl: StructureDefinition-profile-location.html
+        title: 'Structure Definition: Location Profile'
+        generation: generated
+      - nameUrl: StructureDefinition-profile-organization.html
+        title: 'Structure Definition: Organization Profile'
         generation: generated
       - nameUrl: StructureDefinition-profile-patient.html
         title: 'Structure Definition: Patient Profile'

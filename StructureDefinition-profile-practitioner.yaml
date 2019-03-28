@@ -20,7 +20,7 @@ differential:
   - id: Practitioner
     path: Practitioner
     short: Practitioner Profile
-    definition: The Provider Profile is based on the core FHIR Practitioner Resource
+    definition: The Practitioner Profile is based on the core FHIR Practitioner Resource
     alias:
     - Provider
     mustSupport: false
