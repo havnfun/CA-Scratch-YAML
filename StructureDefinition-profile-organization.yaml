@@ -320,6 +320,11 @@ differential:
 #    mapping:
 #    - identity: rim
 #      map: N/A
+
+############
+# Organization.identifier slicing approach is shared with Practitioner, Location
+############
+
   - id: Organization.identifier
     path: Organization.identifier
     slicing:
