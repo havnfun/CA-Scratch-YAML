@@ -656,9 +656,9 @@ differential:
 #      map: .address
 #    - identity: servd
 #      map: ./PrimaryAddress and ./OtherAddresses
-#  - id: Organization.partOf
-#    path: Organization.partOf
-#    short: The organization of which this organization forms a part
+  - id: Organization.partOf
+    path: Organization.partOf
+    short: The organization of which this organization forms a part
 #    definition: The organization of which this organization forms a part.
 #    requirements: Need to be able to track the hierarchy of organizations within an
 #      organization.
@@ -668,13 +668,13 @@ differential:
 #      path: Organization.partOf
 #      min: 0
 #      max: "1"
-#    type:
-#    - extension:
-#      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy
-#        valueBoolean: true
-#      code: Reference
-#      targetProfile:
-#      - http://hl7.org/fhir/StructureDefinition/Organization
+    type:
+    - extension:
+      - url: http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy
+        valueBoolean: true
+      code: Reference
+      targetProfile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:

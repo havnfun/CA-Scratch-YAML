@@ -423,35 +423,15 @@ differential:
     - code: string
     mustSupport: true
     isModifier: false
-#  - id: Location.identifier
-#    path: Location.identifier
-#    short: Unique code or number identifying the location to its users
-#    definition: Unique code or number identifying the location to its users.
-#    requirements: Organization label locations in registries, need to keep track of
-#      those.
-#    min: 0
-#    max: '*'
-#    base:
-#      path: Location.identifier
-#      min: 0
-#      max: '*'
-#    type:
-#    - code: Identifier
-#    isModifier: false
-#    isSummary: true
-#    mapping:
-#    - identity: w5
-#      map: FiveWs.identifier
-#    - identity: rim
-#      map: .id
-#  - id: Location.status
-#    path: Location.status
+  - id: Location.status
+    path: Location.status
 #    short: active | suspended | inactive
 #    definition: The status property covers the general availability of the resource,
 #      not the current value which may be covered by the operationStatus, or by a schedule/slots
 #      if they are configured for the location.
 #    min: 0
 #    max: "1"
+    mustSupport: true
 #    base:
 #      path: Location.status
 #      min: 0
@@ -503,14 +483,15 @@ differential:
 #      map: FiveWs.status
 #    - identity: rim
 #      map: n/a
-#  - id: Location.name
-#    path: Location.name
+  - id: Location.name
+    path: Location.name
 #    short: Name of the location as used by humans
 #    definition: Name of the location as used by humans. Does not need to be unique.
 #    comment: If the name of a location changes, consider putting the old name in the
 #      alias column so that it can still be located through searches.
-#    min: 0
+    min: 1
 #    max: "1"
+    mustSupport: true
 #    base:
 #      path: Location.name
 #      min: 0
@@ -601,16 +582,17 @@ differential:
 #      map: FiveWs.class
 #    - identity: rim
 #      map: .playingEntity[classCode=PLC].determinerCode
-#  - id: Location.type
-#    path: Location.type
-#    short: Type of function performed
+  - id: Location.type
+    path: Location.type
+    short: Location Type
 #    definition: Indicates the type of function performed at the location.
 #    min: 0
 #    max: '*'
 #    base:
 #      path: Location.type
-#      min: 0
+    min: 1
 #      max: '*'
+    mustSupport: true
 #    type:
 #    - code: CodeableConcept
 #    isModifier: false
@@ -627,14 +609,15 @@ differential:
 #      map: FiveWs.class
 #    - identity: rim
 #      map: .code
-#  - id: Location.telecom
-#    path: Location.telecom
+  - id: Location.telecom
+    path: Location.telecom
 #    short: Contact details of the location
 #    definition: The contact details of communication devices available at the location.
 #      This can include phone numbers, fax numbers, mobile numbers, email addresses
 #      and web sites.
 #    min: 0
 #    max: '*'
+    mustSupport: true
 #    base:
 #      path: Location.telecom
 #      min: 0
@@ -646,15 +629,16 @@ differential:
 #    mapping:
 #    - identity: rim
 #      map: .telecom
-#  - id: Location.address
-#    path: Location.address
-#    short: Physical location
+  - id: Location.address
+    path: Location.address
+    short: Physical location
 #    definition: Physical location.
 #    comment: Additional addresses should be recorded using another instance of the
 #      Location resource, or via the Organization.
 #    requirements: If locations can be visited, we need to keep track of their address.
 #    min: 0
 #    max: "1"
+    mustSupport: true
 #    base:
 #      path: Location.address
 #      min: 0
@@ -858,8 +842,8 @@ differential:
 #    mapping:
 #    - identity: rim
 #      map: (RIM Opted not to map the sub-elements of GPS location, is now an OBS)
-#  - id: Location.managingOrganization
-#    path: Location.managingOrganization
+  - id: Location.managingOrganization
+    path: Location.managingOrganization
 #    short: Organization responsible for provisioning and upkeep
 #    definition: The organization responsible for the provisioning and upkeep of the
 #      location.
@@ -869,14 +853,15 @@ differential:
 #    requirements: Need to know who manages the location.
 #    min: 0
 #    max: "1"
+    mustSupport: true
 #    base:
 #      path: Location.managingOrganization
 #      min: 0
 #      max: "1"
-#    type:
-#    - code: Reference
-#      targetProfile:
-#      - http://hl7.org/fhir/StructureDefinition/Organization
+    type:
+    - code: Reference
+      targetProfile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:
