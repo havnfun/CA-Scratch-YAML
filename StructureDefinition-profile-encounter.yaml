@@ -847,7 +847,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/Patient
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
 #      - http://hl7.org/fhir/StructureDefinition/Group
 #    isModifier: false
 #    isSummary: true
@@ -1098,8 +1098,8 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/Practitioner
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/PractitionerRole
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitioner
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitionerrole
 #      - http://hl7.org/fhir/StructureDefinition/RelatedPerson
 #    isModifier: false
 #    isSummary: true
@@ -1397,7 +1397,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/Condition
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-condition
 #      - http://hl7.org/fhir/StructureDefinition/Procedure
 #    isModifier: false
 #    isSummary: true
@@ -1943,7 +1943,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/Location
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-location
 #    isModifier: false
 #    isSummary: false
 #    mapping:
