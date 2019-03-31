@@ -60,6 +60,10 @@ differential:
 #      xpath: not(exists(for $contained in f:contained return $contained[not(parent::*/descendant::f:reference/@value=concat('#',
 #        $contained/*/id/@value) or descendant::f:reference[@value='#'])]))
 #      source: DomainResource
+#########################
+# Note:
+# Extensions below were added to be consistent with ON PPR
+#########################
   - id: Organization.extension:affiliation
     path: Organization.extension
     sliceName: affiliation
@@ -511,6 +515,10 @@ differential:
 #        is active or not, could be delisted, deregistered, not operational yet) this
 #        could alternatively be derived from ./StartDate and ./EndDate and given a
 #        context date.
+###########################
+#  Note:
+#  Organization.type: Required CDN HL7 v3 but not required in any of the FHIR profiles reviewed.
+###########################
 #  - id: Organization.type
 #    path: Organization.type
 #    short: Kind of organization
@@ -549,6 +557,10 @@ differential:
 #      map: .code
 #    - identity: servd
 #      map: n/a
+###########################
+#  Note:
+#  Organization.name: Required in US Core, CDN HL7 v3, etc
+###########################
   - id: Organization.name
     path: Organization.name
 #    short: Name used for the organization
@@ -576,6 +588,10 @@ differential:
 #      map: .name
 #    - identity: servd
 #      map: .PreferredName/Name
+###########################
+#  Note:
+#  Organization.alias: Note slicing on ON PPR FHIR profile to distinguish legal name, short name, other name (extension on other name for language codes)
+###########################
 #  - id: Organization.alias
 #    path: Organization.alias
 #    short: A list of alternate names that the organization is known as, or was known
@@ -602,6 +618,10 @@ differential:
 #    mapping:
 #    - identity: rim
 #      map: .name
+###########################
+#  Note:
+#  Organization.telecom: Required in US Core, CDN HL7 v3 but not all FHIR profiles reviewed
+###########################
   - id: Organization.telecom
     path: Organization.telecom
 #    short: A contact detail for the organization
@@ -636,6 +656,10 @@ differential:
 #      map: .telecom
 #    - identity: servd
 #      map: ./ContactPoints
+###########################
+#  Note:
+#  Organization.telecom: Required in US Core but not all FHIR profiles reviewed
+###########################
   - id: Organization.address
     path: Organization.address
 #    short: An address for the organization
