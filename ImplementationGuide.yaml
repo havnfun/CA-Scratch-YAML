@@ -16,7 +16,7 @@ definition:
       reference: StructureDefinition/ext-birthsex
     exampleBoolean: false
   - reference:
-      reference: StructureDefinition/ext-servicelanguage
+      reference: StructureDefinition/ext-communication
     exampleBoolean: false
   - reference:
       reference: StructureDefinition/ext-versioncode
@@ -55,7 +55,7 @@ definition:
       - nameUrl: StructureDefinition-ext-birthsex.html
         title: 'Extension: Birth Sex'
         generation: generated
-      - nameUrl: StructureDefinition-ext-servicelanguage.html
+      - nameUrl: StructureDefinition-ext-communication.html
         title: 'Extension: Service Language'
         generation: generated
       - nameUrl: StructureDefinition-ext-versioncode.html
