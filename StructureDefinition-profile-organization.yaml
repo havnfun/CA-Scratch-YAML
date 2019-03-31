@@ -60,6 +60,20 @@ differential:
 #      xpath: not(exists(for $contained in f:contained return $contained[not(parent::*/descendant::f:reference/@value=concat('#',
 #        $contained/*/id/@value) or descendant::f:reference[@value='#'])]))
 #      source: DomainResource
+  - id: Organization.extension:affiliation
+    path: Organization.extension
+    sliceName: affiliation
+    type:
+    - code: extension
+      profile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-affiliation
+  - id: Organization.extension:serviceLanguage
+    path: Organization.extension
+    sliceName: serviceLanguage
+    type:
+    - code: extension
+      profile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-servicelanguage
 #    - extension:
 #      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice
 #        valueBoolean: true

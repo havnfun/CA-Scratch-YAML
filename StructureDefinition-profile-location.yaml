@@ -91,6 +91,20 @@ differential:
 #      map: Entity. Role, or Act
 #    - identity: rim
 #      map: .Role[classCode=SDLC]
+  - id: Location.extension:affiliation
+    path: Location.extension
+    sliceName: affiliation
+    type:
+    - code: extension
+      profile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-affiliation
+  - id: Location.extension:serviceLanguage
+    path: Location.extension
+    sliceName: serviceLanguage
+    type:
+    - code: extension
+      profile:
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-servicelanguage
 #  - id: Location.id
 #    path: Location.id
 #    short: Logical id of this artifact
