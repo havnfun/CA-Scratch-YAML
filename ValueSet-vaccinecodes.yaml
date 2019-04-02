@@ -1,0 +1,22 @@
+resourceType: ValueSet
+id: vaccinecodes
+url: http://hl7.org/fhir/ca/scratch/ValueSet/vaccinecodes
+version: 4.0.0
+name: VaccineCodes
+title: Vaccine Codes
+status: draft
+#date: '2019-04-02'
+publisher: Canada Health Infoway
+description: >-
+  **Placeholder**
+
+  Current and historical vaccines are published as separate lists by Canada Health Infoway. See:
+
+  [VaccineAdministeredTradeNameCode](https://tgateway.infoway-inforoute.ca/html/singlesubset.html?id=2.16.840.1.113883.2.20.3.281&versionid=20181031)
+
+  [VaccineHistoricalNameCode](https://tgateway.infoway-inforoute.ca/html/singlesubset.html?id=2.16.840.1.113883.2.20.3.282&versionid=20181031).
+compose:
+  include:
+  - valueSet:
+    - https://fhir.infoway-inforoute.ca/ValueSet/vaccineadministeredtradenamecode
+    - https://fhir.infoway-inforoute.ca/ValueSet/vaccinehistoricalnamecode

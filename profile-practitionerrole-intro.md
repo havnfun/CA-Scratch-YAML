@@ -7,7 +7,7 @@ Key differences from [USCoreR4 PractitionerRole](https://build.fhir.org/ig/HL7/U
 
 **[ToDo]:**
 
-[x] review structure against USCoreR4 profile and draft constraints
+[x] review USCoreR4 profile and draft extensions and restrictions
 
 [] review structure against pan-CDN HL7 v3
 
@@ -17,7 +17,7 @@ Key differences from [USCoreR4 PractitionerRole](https://build.fhir.org/ig/HL7/U
 
 [] review [PracticeSettingCodeValueSet](http://build.fhir.org/valueset-c80-practice-codes.html) against CDN specs
 
-[] add additional constraints (cross element) from USCoreR4
+[] add constraints (cross element) from USCoreR4
 
 [] refine constraints (cross element) to CAD requirements ?
 

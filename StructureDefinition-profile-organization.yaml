@@ -8,7 +8,7 @@ url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
 version: 0.0.0
 name: Organization_Profile
 title: Organization Profile
-status: active
+status: draft
 date: "2019-03-28"
 publisher: TBD
 description: Proposed constraints and extensions on the Organization Resource.  Generated

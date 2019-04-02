@@ -38,7 +38,7 @@ url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-location
 version: 0.0.0
 name: Location_Profile
 title: Location Profile
-status: active
+status: draft
 date: "2019-03-28"
 publisher: TBD
 description: Proposed constraints and extensions on the Location Resource.  Generated
