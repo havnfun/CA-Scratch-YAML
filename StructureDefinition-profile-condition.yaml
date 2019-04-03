@@ -407,9 +407,9 @@ differential:
 #      codes that mark the condition as no longer active.
 #    isSummary: true
     binding:
-      extension:
-      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
-        valueString: ConditionClinicalStatus
+#      extension:
+#      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
+#        valueString: ConditionClinicalStatus
       strength: required
 #     description: The clinical status of the condition or diagnosis.
       valueSet: http://hl7.org/fhir/ValueSet/condition-clinical|4.0.0
@@ -451,9 +451,9 @@ differential:
 #      valid.
 #    isSummary: true
     binding:
-      extension:
-      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
-        valueString: ConditionVerificationStatus
+#      extension:
+#      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
+#        valueString: ConditionVerificationStatus
       strength: required
 #     description: The verification status to support or decline the clinical status
 #       of the condition or diagnosis.
@@ -491,9 +491,9 @@ differential:
 #    isModifier: false
 #    isSummary: false
     binding:
-      extension:
-      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
-        valueString: ConditionCategory
+#      extension:
+#      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
+#        valueString: ConditionCategory
       strength: extensible
 #      description: A category assigned to the condition.
       valueSet: http://hl7.org/fhir/ValueSet/condition-category
@@ -561,12 +561,12 @@ differential:
 #    isModifier: false
 #    isSummary: true
     binding:
-      extension:
-      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
-        valueString: ConditionKind
-      strength: example
-#     description: Identification of the condition or diagnosis.
-      valueSet: http://hl7.org/fhir/ValueSet/condition-code
+#      extension:
+#      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName
+#        valueString: ConditionKind
+      strength: extensible
+##     description: Identification of the condition or diagnosis.
+      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/healthconcerncode
 #    mapping:
 #    - identity: workflow
 #      map: Event.code

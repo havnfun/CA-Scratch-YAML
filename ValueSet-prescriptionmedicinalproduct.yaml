@@ -5,7 +5,6 @@ version: 4.0.0
 name: PrescriptionMedicinalProduct
 title: Prescription Medicinal Product
 status: draft
-#date: '2019-04-02'
 publisher: Canada Health Infoway
 description: >-
   The list of commonly used Medicinal products used for prescribing and dispensing in Canada.

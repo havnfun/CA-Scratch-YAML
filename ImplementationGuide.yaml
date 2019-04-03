@@ -73,6 +73,9 @@ definition:
       reference: ValueSet/birthsex
     exampleBoolean: false
   - reference:
+      reference: ValueSet/healthconcerncode
+    exampleBoolean: false
+  - reference:
       reference: ValueSet/prescriptiondrugform
     exampleBoolean: false
   - reference:
