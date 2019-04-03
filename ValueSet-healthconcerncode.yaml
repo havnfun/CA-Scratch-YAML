@@ -3,7 +3,7 @@ id: healthconcerncode
 url: http://hl7.org/fhir/ca/scratch/ValueSet/healthconcerncode
 version: 4.0.0
 name: HealthConcernCode
-#title: Health Concern Code
+title: Health Concern Code
 status: draft
 publisher: Canada Health Infoway
 description: >-
