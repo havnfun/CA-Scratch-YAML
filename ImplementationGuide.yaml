@@ -9,9 +9,13 @@ fhirVersion:
 - 4.0.0
 definition:
   resource:
-  - reference:
-      reference: StructureDefinition/ext-affiliation
-    exampleBoolean: false
+#########################
+# After talking to Lloyd, removed affiliation extension
+# use OrganizationAffiliaion instead
+#########################
+#  - reference:
+#      reference: StructureDefinition/ext-affiliation
+#    exampleBoolean: false
   - reference:
       reference: StructureDefinition/ext-birthsex
     exampleBoolean: false
@@ -58,6 +62,9 @@ definition:
       reference: StructureDefinition/profile-organization
     exampleBoolean: false
   - reference:
+      reference: StructureDefinition/profile-organizationaffiliation
+    exampleBoolean: false
+  - reference:
       reference: StructureDefinition/profile-patient
     exampleBoolean: false
   - reference:
@@ -94,9 +101,13 @@ definition:
     - generation: markdown
       nameUrl: profiles.html
       page:
-      - nameUrl: StructureDefinition-ext-affiliation.html
-        title: 'Extension: Affiliation'
-        generation: generated
+#########################
+# After talking to Lloyd, removed affiliation extension
+# use OrganizationAffiliaion instead
+#########################
+#      - nameUrl: StructureDefinition-ext-affiliation.html
+#        title: 'Extension: Affiliation'
+#        generation: generated
       - nameUrl: StructureDefinition-ext-birthsex.html
         title: 'Extension: Birth Sex'
         generation: generated
@@ -107,7 +118,7 @@ definition:
         title: 'Extension: Estimated Flag'
         generation: generated
       - nameUrl: StructureDefinition-ext-versioncode.html
-        title: 'Extension: Patient Identifier Version Code'
+        title: 'Extension: Version Code'
         generation: generated
       - nameUrl: StructureDefinition-profile-allergyintolerance.html
         title: 'Structure Definition: AllergyIntolerance Profile'
@@ -141,6 +152,9 @@ definition:
         generation: generated
       - nameUrl: StructureDefinition-profile-organization.html
         title: 'Structure Definition: Organization Profile'
+        generation: generated
+      - nameUrl: StructureDefinition-profile-organizationaffiliation.html
+        title: 'Structure Definition: OrganizationAffiliation Profile'
         generation: generated
       - nameUrl: StructureDefinition-profile-patient.html
         title: 'Structure Definition: Patient Profile'
