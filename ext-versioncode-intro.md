@@ -7,5 +7,3 @@ Canadian Jurisdictional Health Numbers (JHN) in (at least) some Jurisdictions ha
 2. the means to validate whether a number provided is currently valid
 
 (There are exceptions to above in cases where patients fail to maintain residency or where health cards are used fraudulently. Very likely others.)
-
-{% include link-list.md %}

@@ -18,5 +18,3 @@ This profile was generated from [HL7 StructureDefinition](https://www.hl7.org/fh
   - OrganizationAffiliation.participationOrganization points to the ***Organization*** that performs a role (Location.managingOrganization)
   - OrganizationAffiliation.code specifies the ***role*** the ***participatingOrganization*** plays (similar to Type above)
   - OrganizationAffiliation.location points to the ***Location*** where the role is performed
-
-{% include link-list.md %}
