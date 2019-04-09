@@ -75,13 +75,13 @@ differential:
 #    - code: extension
 #      profile:
 #      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-affiliation
-  - id: Organization.extension:communication
+  - id: Organization.extension:servicelanguage
     path: Organization.extension
     sliceName: communication
     type:
     - code: extension
       profile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-communication
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-servicelanguage
 #    - extension:
 #      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice
 #        valueBoolean: true

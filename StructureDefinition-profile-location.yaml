@@ -291,13 +291,13 @@ differential:
 #    - code: extension
 #      profile:
 #      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-affiliation
-  - id: Location.extension:communication
+  - id: Location.extension:servicelanguage
     path: Location.extension
     sliceName: communication
     type:
     - code: extension
       profile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-communication
+      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-servicelanguage
 #  - id: Location.extension
 #    path: Location.extension
 #    short: Additional content defined by implementations
