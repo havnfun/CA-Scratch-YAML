@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-practitionerrole
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitionerrole
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitionerrole
 version: 0.0.0
 name: PractitionerRole_Profile
 title: PractitionerRole Profile
@@ -408,7 +408,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitioner
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitioner
 #    isModifier: false
 #    isSummary: true
 #    mapping:
@@ -428,7 +428,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:
@@ -511,7 +511,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-location
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-location
 #    isModifier: false
 #    isSummary: true
 #    mapping:

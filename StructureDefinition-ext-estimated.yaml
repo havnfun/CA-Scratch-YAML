@@ -1,6 +1,6 @@
 resourceType: StructureDefinition
 id: ext-estimated
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-estimated
+url: http://hl7.org/fhir/ca/core/StructureDefinition/ext-estimated
 version: 0.0.0
 name: ExtensionEstimated
 title: 'Extension: Estimated Flag'
@@ -28,7 +28,7 @@ differential:
     isModifier: false
   - id: Extension:estimated.url
     path: Extension.url
-    fixedUri: http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-estimated
+    fixedUri: http://hl7.org/fhir/ca/core/StructureDefinition/ext-estimated
   - id: Extension:estimated.valueBoolean
     path: Extension.valueBoolean
     min: 1

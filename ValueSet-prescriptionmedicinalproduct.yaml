@@ -1,6 +1,6 @@
 resourceType: ValueSet
 id: prescriptionmedicinalproduct
-url: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptionmedicinalproduct
+url: http://hl7.org/fhir/ca/core/ValueSet/prescriptionmedicinalproduct
 version: 4.0.0
 name: PrescriptionMedicinalProduct
 title: Prescription Medicinal Product

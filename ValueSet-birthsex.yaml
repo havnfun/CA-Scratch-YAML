@@ -1,6 +1,6 @@
 resourceType: ValueSet
 id: birthsex
-url: http://hl7.org/fhir/ca/scratch/ValueSet/birthsex
+url: http://hl7.org/fhir/ca/core/ValueSet/birthsex
 # identifier:
 # - system: urn:ietf:rfc:3986
 #   value: urn:oid:2.16.840.1.113762.1.4.1021.24

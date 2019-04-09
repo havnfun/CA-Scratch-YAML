@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-medicationstatement
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medicationstatement
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-medicationstatement
 version: 0.0.0
 name: MedicationStatement_Profile
 title: MedicationStatement Profile
@@ -520,7 +520,7 @@ differential:
     - code: CodeableConcept
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medication
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-medication
 #    isModifier: false
 #    isSummary: true
     binding:
@@ -529,7 +529,7 @@ differential:
 #        valueString: MedicationCode
       strength: extensible
       description: A coded concept identifying the substance or product being taken.
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptionmedicinalproduct
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/prescriptionmedicinalproduct
 #    mapping:
 #    - identity: workflow
 #      map: Event.code
@@ -551,7 +551,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #      - http://hl7.org/fhir/StructureDefinition/Group
 #    isModifier: false
 #    isSummary: true

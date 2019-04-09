@@ -8,7 +8,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-patient
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 version: 0.0.0
 name: Patient_Profile
 title: Patient Profile
@@ -277,13 +277,13 @@ differential:
     type:
     - code: Extension
       profile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-birthsex
+      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-birthsex
     mustSupport: false
     isModifier: false
     binding:
       strength: required
       description: Code for sex assigned at birth
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/birthsex
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/birthsex
     # mapping:
     # - identity: argonaut-dq-dstu2
     #   map: Patient.extension
@@ -406,7 +406,7 @@ differential:
     type:
     - code: Extension
       profile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-versioncode
+      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-versioncode
     mustSupport: false
   - id: Patient.identifier:JHN.type
     path: Patient.identifier.type

@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-allergyintolerance
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-allergyintolerance
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-allergyintolerance
 version: 0.0.0
 name: AllergyIntolerance_Profile
 title: AllergyIntolerance Profile
@@ -679,7 +679,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #    isModifier: false
 #    isSummary: true
 #    mapping:

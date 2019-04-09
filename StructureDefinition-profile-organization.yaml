@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-organization
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 version: 0.0.0
 name: Organization_Profile
 title: Organization Profile
@@ -74,14 +74,14 @@ differential:
 #    type:
 #    - code: extension
 #      profile:
-#      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-affiliation
+#      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-affiliation
   - id: Organization.extension:servicelanguage
     path: Organization.extension
     sliceName: communication
     type:
     - code: extension
       profile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/ext-servicelanguage
+      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-servicelanguage
 #    - extension:
 #      - url: http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice
 #        valueBoolean: true
@@ -716,7 +716,7 @@ differential:
         valueBoolean: true
       code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:

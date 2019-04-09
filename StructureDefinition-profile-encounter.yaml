@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-encounter
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-encounter
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-encounter
 version: 0.0.0
 name: Encounter_Profile
 title: Encounter Profile
@@ -847,7 +847,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #      - http://hl7.org/fhir/StructureDefinition/Group
 #    isModifier: false
 #    isSummary: true
@@ -1098,8 +1098,8 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitioner
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitionerrole
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitioner
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitionerrole
 #      - http://hl7.org/fhir/StructureDefinition/RelatedPerson
 #    isModifier: false
 #    isSummary: true
@@ -1397,7 +1397,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-condition
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-condition
 #      - http://hl7.org/fhir/StructureDefinition/Procedure
 #    isModifier: false
 #    isSummary: true
@@ -1943,7 +1943,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-location
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-location
 #    isModifier: false
 #    isSummary: false
 #    mapping:

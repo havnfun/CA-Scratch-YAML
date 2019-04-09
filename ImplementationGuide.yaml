@@ -1,6 +1,6 @@
 resourceType: ImplementationGuide
 id: ig
-url: http://hl7.org/fhir/ca/scratch/ImplementationGuide/ig
+url: http://hl7.org/fhir/ca/core/ImplementationGuide/ig
 name: CA_Scratch
 title: CA Scratch
 status: active

@@ -8,7 +8,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-practitioner
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitioner
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitioner
 version: 0.0.0
 name: Practitioner_Profile
 title: Practitioner Profile

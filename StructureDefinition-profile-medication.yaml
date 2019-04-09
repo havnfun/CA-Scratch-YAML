@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-medication
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medication
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-medication
 version: 0.0.0
 name: Medication_Profile
 title: Medication Profile
@@ -362,7 +362,7 @@ differential:
 #        valueString: MedicationFormalRepresentation
       strength: extensible
       description: Medicinal products for prescribing and dispensing in Canada
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptionmedicinalproduct
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/prescriptionmedicinalproduct
 #    mapping:
 #    - identity: script10.6
 #      map: "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode\r\rcoding.system
@@ -480,7 +480,7 @@ differential:
 #        valueString: MedicationForm
       strength: extensible
       description: A coded concept defining the form of a medication.
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptiondrugform
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/prescriptiondrugform
 #    mapping:
 #    - identity: script10.6
 #      map: "coding.code =  //element(*,DrugCodedType)/FormCode\r\rcoding.system =
@@ -657,13 +657,13 @@ differential:
 #    - code: Reference
 #      targetProfile:
 #      - http://hl7.org/fhir/StructureDefinition/Substance
-#      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medication
+#      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-medication
 #    isModifier: false
 #    isSummary: false
     binding:
       strength: extensible
       description: Medicinal products for prescribing and dispensing in Canada
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptionmedicinalproduct
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/prescriptionmedicinalproduct
 #    mapping:
 #    - identity: script10.6
 #      map: "coding.code = //element(*,MedicationType)/DrugCoded/ProductCode\r\rcoding.system

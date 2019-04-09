@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-organizationaffiliation
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organizationaffiliation
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-organizationaffiliation
 version: 0.0.0
 name: OrganizationAffiliation_Profile
 title: OrganizationAffiliation Profile
@@ -394,7 +394,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:
@@ -416,7 +416,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-organization
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 #    isModifier: false
 #    isSummary: true
 #    mapping:
@@ -505,7 +505,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-location
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-location
 #    isModifier: false
 #    isSummary: true
 #    mapping:

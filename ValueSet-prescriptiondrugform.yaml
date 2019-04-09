@@ -1,6 +1,6 @@
 resourceType: ValueSet
 id: prescriptiondrugform
-url: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptiondrugform
+url: http://hl7.org/fhir/ca/core/ValueSet/prescriptiondrugform
 version: 4.0.0
 name: PrescriptionDrugForm
 title: Prescription Drug Form

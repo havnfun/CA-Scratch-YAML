@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-medicationrequest
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medicationrequest
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-medicationrequest
 version: 0.0.0
 name: MedicationRequest_Profile
 title: MedicationRequest Profile
@@ -590,7 +590,7 @@ differential:
     - code: CodeableConcept
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-medication
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-medication
 #    isModifier: false
 #    isSummary: true
     binding:
@@ -599,7 +599,7 @@ differential:
 #        valueString: MedicationCode
       strength: extensible
       description: A coded concept identifying substance or product that can be ordered.
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/prescriptionmedicinalproduct
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/prescriptionmedicinalproduct
 #    mapping:
 #    - identity: workflow
 #      map: Request.code
@@ -632,7 +632,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #      - http://hl7.org/fhir/StructureDefinition/Group
 #    isModifier: false
 #    isSummary: true
@@ -752,7 +752,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-practitioner
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-practitioner
 #      - http://hl7.org/fhir/StructureDefinition/PractitionerRole
 #      - http://hl7.org/fhir/StructureDefinition/Organization
 #      - http://hl7.org/fhir/StructureDefinition/Patient

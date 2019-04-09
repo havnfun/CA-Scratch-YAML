@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-device
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-device
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-device
 version: 0.0.0
 name: Device_Profile
 title: Device Profile
@@ -1491,7 +1491,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #    isModifier: false
 #    isSummary: false
 #    mapping:

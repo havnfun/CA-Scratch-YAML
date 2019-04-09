@@ -1,6 +1,6 @@
 resourceType: ValueSet
 id: vaccinecodes
-url: http://hl7.org/fhir/ca/scratch/ValueSet/vaccinecodes
+url: http://hl7.org/fhir/ca/core/ValueSet/vaccinecodes
 version: 4.0.0
 name: VaccineCodes
 title: Vaccine Codes

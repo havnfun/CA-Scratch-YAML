@@ -4,7 +4,7 @@
 ---
 resourceType: StructureDefinition
 id: profile-condition
-url: http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-condition
+url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-condition
 version: 0.0.0
 name: Condition_Profile
 title: Condition Profile
@@ -566,7 +566,7 @@ differential:
 #        valueString: ConditionKind
       strength: extensible
 ##     description: Identification of the condition or diagnosis.
-      valueSet: http://hl7.org/fhir/ca/scratch/ValueSet/healthconcerncode
+      valueSet: http://hl7.org/fhir/ca/core/ValueSet/healthconcerncode
 #    mapping:
 #    - identity: workflow
 #      map: Event.code
@@ -635,7 +635,7 @@ differential:
     type:
     - code: Reference
       targetProfile:
-      - http://hl7.org/fhir/ca/scratch/StructureDefinition/profile-patient
+      - http://hl7.org/fhir/ca/core/StructureDefinition/profile-patient
 #      - http://hl7.org/fhir/StructureDefinition/Group
 #    isModifier: false
 #    isSummary: true
