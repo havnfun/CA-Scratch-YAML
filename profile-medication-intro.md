@@ -5,7 +5,7 @@ This profile was generated from [HL7 StructureDefinition](https://www.hl7.org/fh
 Key differences from [USCoreR4 Medication](https://build.fhir.org/ig/HL7/US-Core-R4/StructureDefinition-us-core-medication.html):
 - RxNorm is not used in Canada, replaced with a Canadian list of MedicationForm
 
-Key differences from PrescribeIT Medication Profile](https://specs.prescribeit.ca/R2.0/erx/profile-medication.html):
+Key differences from [PrescribeIT Medication Profile](https://specs.prescribeit.ca/R2.0/erx/profile-medication.html):
 - Medication.id left with FHIR defaults
 - Medication.product element has been deleted from FHIR, used Medication.form, Medication.ingredient, Medication.amount instead of equiv. elements in Medication.product
 - [ext-medication-strength-description](https://specs.prescribeit.ca/R2.0/erx/extension-ext-medication-strength-description.html) removed because it appears to be semantically equiv. to Medication.amount **<< might not meet requirement**
