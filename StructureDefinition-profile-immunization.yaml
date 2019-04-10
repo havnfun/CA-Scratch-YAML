@@ -531,7 +531,7 @@ differential:
     type:
     - code: Extension
       profile:
-      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-estimated
+      - http://hl7.org/fhir/ca/core/StructureDefinition/ext-dateestimated
     mustSupport: false
 #  - id: Immunization.recorded
 #    path: Immunization.recorded

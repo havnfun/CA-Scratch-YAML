@@ -1,6 +1,6 @@
 resourceType: StructureDefinition
-id: ext-birthsex
-url: http://hl7.org/fhir/ca/core/StructureDefinition/ext-birthsex
+id: ext-patientbirthsex
+url: http://hl7.org/fhir/ca/core/StructureDefinition/ext-patientbirthsex
 version: 0.0.0
 name: ExtensionBirthSex
 title: 'Extension: Birth Sex'
@@ -37,7 +37,7 @@ differential:
   - id: Extension:birthsex.url
     path: Extension.url
     mustSupport: true
-    fixedUri: http://hl7.org/fhir/ca/core/StructureDefinition/ext-birthsex
+    fixedUri: http://hl7.org/fhir/ca/core/StructureDefinition/ext-patientbirthsex
   - id: Extension:birthsex.valueCode
     path: Extension.valueCode
     min: 1
