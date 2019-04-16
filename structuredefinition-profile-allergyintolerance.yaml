@@ -27,7 +27,7 @@ differential:
     short: AllergyIntolerance Profile
     definition: The AllergyIntolerance Profile is based upon the core FHIR AllergyIntolerance
       Resource
-    comment: 'Substances include, but are not limited to: a therapeutic substance
+#    comment: 'Substances include, but are not limited to: a therapeutic substance
 #      administered correctly at an appropriate dosage for the individual; food; material
 #      derived from plants or animals; or venom from insect stings.'
 #    alias:
