@@ -6,7 +6,7 @@ resourceType: StructureDefinition
 id: profile-immunization
 url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-immunization
 version: 0.0.0
-name: Immunization_Profile
+name: ImmunizationProfile
 title: Immunization Profile
 status: draft
 date: "2019-03-31"

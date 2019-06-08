@@ -6,7 +6,7 @@ resourceType: StructureDefinition
 id: profile-organization
 url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-organization
 version: 0.0.0
-name: Organization_Profile
+name: OrganizationProfile
 title: Organization Profile
 status: draft
 date: "2019-03-28"
@@ -359,6 +359,7 @@ differential:
     mustSupport: true
   - id: Organization.identifier:PRN
     path: Organization.identifier
+    sliceName: PRN
     short: Provider Number
 #    definition: Identifier for the organization that is used to identify the organization
 #      across multiple disparate systems.
@@ -417,6 +418,7 @@ differential:
     isModifier: false
   - id: Organization.identifier:LN
     path: Organization.identifier
+    sliceName: LN
     short: License Number
     min: 0
     mustSupport: false
@@ -450,12 +452,15 @@ differential:
     isModifier: false
   - id: Organization.identifier:OTH
     path: Organization.identifier
+    sliceName: OTH
     short: Other Identifier
   - id: Organization.identifier:OTH.type
     path: Organization.identifier.type
     example:
     - label: Pattern
-      valueString: '{"coding":[{"system":"http://terminology.hl7.org/CodeSystem/v2-0203","code":"DN"}]}'
+      valueCodeableConcept:
+        system: http://terminology.hl7.org/CodeSystem/v2-0203
+        code: DN
     min: 1
     max: "1"
     type:

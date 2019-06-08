@@ -6,7 +6,7 @@ resourceType: StructureDefinition
 id: profile-allergyintolerance
 url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-allergyintolerance
 version: 0.0.0
-name: AllergyIntolerance_Profile
+name: AllergyIntoleranceProfile
 title: AllergyIntolerance Profile
 status: draft
 date: "2019-03-31"

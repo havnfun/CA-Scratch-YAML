@@ -6,7 +6,7 @@ resourceType: StructureDefinition
 id: profile-device
 url: http://hl7.org/fhir/ca/core/StructureDefinition/profile-device
 version: 0.0.0
-name: Device_Profile
+name: DeviceProfile
 title: Device Profile
 status: draft
 date: "2019-03-31"
